@@ -1,0 +1,26 @@
+{
+  "size": {
+    "w": 80,
+    "h": 80
+  },
+  "point": {
+    "x": 5,
+    "y": 5
+  },
+  "cell" : {
+    "lengthFor": 5,
+    "lengthSet": 3,
+    "for": [
+      {"w": 50,"h": 26,"fill": true},
+      {"w": 15,"h": 12,"fill": false},
+      {"w": 1,"h": 22,"fill": true},
+      {"w": 34,"h": 15,"fill": true},
+      {"w": 15,"h": 30,"fill": false}
+    ],
+    "set": [
+      {"x": 10,"y": 10,"fill": true},
+      {"x": 12,"y": 15,"fill": false},
+      {"x": 16,"y": 17,"fill": false}
+    ]
+  }
+}
