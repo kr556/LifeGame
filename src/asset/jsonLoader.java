@@ -120,6 +120,11 @@ public class jsonLoader {
      */
     public static final String[] jsBnText = new String[12];
     /**
+     * <h3><font color="#95859c">appSetting</font></h3>
+     * ボタンに表示する文字列
+     */
+    public static final String[] backPath = new String[1];
+    /**
      * <h3><font color="#007bbbc">readSetting</font></h3>
      *どのconfig(アプリの設定)を読むか
      */
@@ -144,9 +149,10 @@ public class jsonLoader {
     public static final int LOAD_FILE = 2;
 
     public jsonLoader(int loadMode) {
-        File _path = null;
+        File _path = null,_path_0;
         Path path = null;
 
+        _path_0 = new File("./image/panel/back_panel_0.png");
         try {
             //get path
             if (loadMode == GAME_ASSET) {
@@ -158,6 +164,7 @@ public class jsonLoader {
             }
             assert _path != null;
             path = Path.of(_path.getAbsolutePath());
+            backPath[0] = String.valueOf(Path.of(_path_0.getAbsolutePath()));
         } catch (Exception ignored) {}
 
         ObjectMapper omr = new ObjectMapper();

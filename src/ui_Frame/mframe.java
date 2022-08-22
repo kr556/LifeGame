@@ -10,6 +10,7 @@ import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.Objects;
 
 import static bin.mainAsset.*;
 
@@ -30,7 +31,7 @@ public class mframe extends JFrame {
 
     //public static final ImageIcon imgIcn = new ImageIcon(Objects.requireNonNull(mframe.class.getResource("image/back_panel_2.png")));
     //public static final ImageIcon imgIcn = new ImageIcon(Objects.requireNonNull(mframe.class.getResource("image/back_panel_defo.png")));
-    public static final ImageIcon imgIcn = new ImageIcon("image/back_panel_1.png"), app_icn = new ImageIcon("image/lfs_icon.png");
+    public static final ImageIcon imgIcn = new ImageIcon(backPath[0]), app_icn = new ImageIcon("image/lfs_icon.png");
     private static final Image img =imgIcn.getImage().getScaledInstance(wid,hid,Image.SCALE_DEFAULT);
     public static final Color[] cr = {new Color(217, 239, 255)};
     public static final ImageIcon reImgIcn = new ImageIcon(img);
