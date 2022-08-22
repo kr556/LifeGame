@@ -14,7 +14,7 @@ public class Main {
             jsFps = 15;
         }
         System.out.println("1");
-        JFrame mf = new mframe("LifeGame ~jashin edision~",jsFps);
+        JFrame mf = new mframe("LifeGame",jsFps);
         mf.setVisible(true);
     }
 }
