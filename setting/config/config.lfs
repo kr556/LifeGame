@@ -1,0 +1,33 @@
+{
+  "fps": 30,
+  "appBound" : {
+    "x": 20,
+    "y": 20,
+    "w": 1440,
+    "h": 810
+  },
+  "gameAsset": [
+    {"name": "cell_object.json"}
+  ],
+  "back": {
+    "image": "back_panel_0.png",
+    "cell": 194114220
+  },
+  "buttonBoder": 217239255,
+  "font": "BIZ MSゴシック",
+  "font-size": 13,
+  "text": [
+    {"text": "全部埋める"},
+    {"text": "全部空ける"},
+    {"text": "開始"},
+    {"text": "一時停止"},
+    {"text": "再開"},
+    {"text": "終了"},
+    {"text": "fps"},
+    {"text": "x0.5"},
+    {"text": "x2"},
+    {"text": "ゲームを終了"},
+    {"text": "セルを表示"},
+    {"text": "ガイドを表示"}
+  ]
+}
